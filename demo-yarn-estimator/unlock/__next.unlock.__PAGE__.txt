@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:"$Sreact.suspense"
+3:I[64605,["/forge-demos/demo-yarn-estimator/_next/static/chunks/158myu8e_yme3.js","/forge-demos/demo-yarn-estimator/_next/static/chunks/16t5_h4ea3gaf.js"],"UnlockClient"]
+4:I[97367,["/forge-demos/demo-yarn-estimator/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"mx-auto grid min-h-[70vh] max-w-md place-items-center px-5 py-20","children":["$","$2",null,{"fallback":["$","p",null,{"className":"text-sm opacity-60","children":"Checking your purchase…"}],"children":["$","$L3",null,{"slug":"demo-yarn-estimator","mode":"link","linkKey":"demo-yarn-estimator-preview","brandName":"Yarn Estimator","supportEmail":"hello@example.com"}]}]}],[["$","script","script-0",{"src":"/forge-demos/demo-yarn-estimator/_next/static/chunks/16t5_h4ea3gaf.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"GcnNdZmn-dn94-V0xBtWC"}
+5:null

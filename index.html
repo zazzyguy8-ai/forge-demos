@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Forge — demo tools</title>
+<style>
+  :root { color-scheme: light dark; --bg:#0c0d11; --fg:#f0f1f4; --mut:#8b92a3; --line:#23262f; --card:#14161c; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f3f4f6; --fg:#14161c; --mut:#5e6575; --line:#dcdee4; --card:#fff; } }
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);
+    font:15px/1.55 ui-sans-serif,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+  .w{max-width:860px;margin:0 auto;padding:56px 22px 80px}
+  h1{font-size:28px;letter-spacing:-.025em;margin:0 0 8px}
+  p.lede{color:var(--mut);margin:0 0 34px;max-width:56ch}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+  .card{display:grid;gap:5px;padding:18px;border:1px solid var(--line);border-radius:12px;
+    background:var(--card);text-decoration:none;color:inherit;position:relative;transition:border-color .15s}
+  .card:hover{border-color:var(--a)}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--a)}
+  .card strong{font-size:16.5px;letter-spacing:-.01em}
+  .card em{font-style:normal;color:var(--mut);font-size:13.5px;line-height:1.45}
+  .tag{position:absolute;top:16px;right:16px;font-size:11px;color:var(--mut);
+    font-family:ui-monospace,monospace}
+  .price{margin-top:4px;font-size:12px;font-weight:700;color:var(--a);letter-spacing:.02em}
+  footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--mut);font-size:12.5px}
+</style></head><body>
+  <div class="w">
+    <h1>Forge — demo tools</h1>
+    <p class="lede">Reference builds, one per niche. Each is a live working
+      product: the free view is real, and the locked sections are real too.
+      Reskin any of these for a creator in about 15 minutes.</p>
+    <div class="grid">
+      <a class="card" href="/forge-demos/demo-catchup-tracker/" style="--a:#ff5c7a">
+        <span class="dot"></span>
+        <strong>Catch-Up Tracker</strong>
+        <span class="tag">anime</span>
+        <em>How long to actually catch up?</em>
+        <span class="price">$19</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-cut-calculator/" style="--a:#d7ff3e">
+        <span class="dot"></span>
+        <strong>The Cut Calculator</strong>
+        <span class="tag">fit</span>
+        <em>Stop guessing your calories.</em>
+        <span class="price">$27</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-debt-payoff/" style="--a:#3ee08a">
+        <span class="dot"></span>
+        <strong>Debt Freedom Date</strong>
+        <span class="tag">money</span>
+        <em>Find out the exact month you're debt free.</em>
+        <span class="price">$29</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-exam-planner/" style="--a:#6b7cff">
+        <span class="dot"></span>
+        <strong>Exam Countdown</strong>
+        <span class="tag">study</span>
+        <em>Do you actually have enough time to revise?</em>
+        <span class="price">$19</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-skin-conflicts/" style="--a:#e8927c">
+        <span class="dot"></span>
+        <strong>Routine Checker</strong>
+        <span class="tag">skin</span>
+        <em>Your products might be cancelling each other out.</em>
+        <span class="price">$22</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-tank-stocking/" style="--a:#38bdf8">
+        <span class="dot"></span>
+        <strong>Stocking Check</strong>
+        <span class="tag">aqua</span>
+        <em>Will these fish actually live together?</em>
+        <span class="price">$19</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-wardrobe-builder/" style="--a:#c9a227">
+        <span class="dot"></span>
+        <strong>Wardrobe Math</strong>
+        <span class="tag">fitpics</span>
+        <em>How many outfits do you actually own?</em>
+        <span class="price">$22</span>
+      </a>
+      <a class="card" href="/forge-demos/demo-yarn-estimator/" style="--a:#b45ea8">
+        <span class="dot"></span>
+        <strong>Yarn Estimator</strong>
+        <span class="tag">yarn</span>
+        <em>Stop buying too little yarn.</em>
+        <span class="price">$19</span>
+      </a>
+    </div>
+    <footer>Demo creators are placeholders. Checkout buttons open the unlocked
+      preview instead of Stripe, so you can show a creator exactly what a buyer
+      gets.</footer>
+  </div>
+</body></html>
